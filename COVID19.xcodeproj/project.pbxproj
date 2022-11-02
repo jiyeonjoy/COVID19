@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		275EF63E29126F06001805E4 /* CityCovidOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275EF63D29126F06001805E4 /* CityCovidOverview.swift */; };
 		27BD0A7329092F0000305782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD0A7229092F0000305782 /* AppDelegate.swift */; };
 		27BD0A7529092F0000305782 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD0A7429092F0000305782 /* SceneDelegate.swift */; };
 		27BD0A7729092F0000305782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27BD0A7629092F0000305782 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		275EF63D29126F06001805E4 /* CityCovidOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCovidOverview.swift; sourceTree = "<group>"; };
 		27BD0A6F29092F0000305782 /* COVID19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COVID19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27BD0A7229092F0000305782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27BD0A7429092F0000305782 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				27BD0A7B29092F0100305782 /* Assets.xcassets */,
 				27BD0A7D29092F0100305782 /* LaunchScreen.storyboard */,
 				27BD0A8029092F0100305782 /* Info.plist */,
+				275EF63D29126F06001805E4 /* CityCovidOverview.swift */,
 			);
 			path = COVID19;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 				27BD0A7729092F0000305782 /* ViewController.swift in Sources */,
 				27BD0A7329092F0000305782 /* AppDelegate.swift in Sources */,
 				27BD0A7529092F0000305782 /* SceneDelegate.swift in Sources */,
+				275EF63E29126F06001805E4 /* CityCovidOverview.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
