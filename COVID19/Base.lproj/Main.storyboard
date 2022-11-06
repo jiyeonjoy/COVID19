@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vj1-zP-6VO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vj1-zP-6VO">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -106,10 +106,10 @@
             </objects>
             <point key="canvasLocation" x="-626" y="-2"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Covid Detail View Controller-->
         <scene sceneID="uCd-mg-uxQ">
             <objects>
-                <tableViewController id="pLl-eB-569" sceneMemberID="viewController">
+                <tableViewController id="pLl-eB-569" customClass="CovidDetailViewController" customModule="COVID19" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="1Gu-xv-oDb">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -293,6 +293,15 @@
                             <outlet property="delegate" destination="pLl-eB-569" id="9a6-aT-DFN"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="deathCell" destination="2US-wZ-S4L" id="bPV-gw-Sp3"/>
+                        <outlet property="newCaseCell" destination="bWo-a3-VVa" id="9L8-qx-W0u"/>
+                        <outlet property="overseasInflowCell" destination="Cgn-F2-7ch" id="swu-Mk-f5A"/>
+                        <outlet property="percentageCell" destination="jwY-Rn-7uc" id="B5M-AN-zkS"/>
+                        <outlet property="recoveredCell" destination="9iF-yJ-cKd" id="d2B-pr-qmq"/>
+                        <outlet property="regionalOutbreakCell" destination="khx-nt-kRD" id="BUL-HG-6Vk"/>
+                        <outlet property="totalCaseCell" destination="HOb-sX-tvw" id="w0Z-4q-Phy"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eSE-lu-KiJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
